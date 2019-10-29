@@ -17,7 +17,11 @@ def mirror(the_word):
     reverse = ""
     for character in range((len(the_word)-1), -1, -1):
         reverse = reverse + the_word[character]
+<<<<<<< HEAD
     print(the_word, "|", reverse)
+=======
+    print(reverse)
+>>>>>>> ab892317b2be4f578eeedf978cf7cd403965576f
     
 # Display repeat (case change)
 def repeat(the_word):
